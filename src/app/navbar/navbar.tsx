@@ -7,9 +7,11 @@ const BASE_PATH: string | undefined = process.env.NEXT_PUBLIC_BASE_PATH;
 
 export default function Navbar() {
     // 2. Construct the full image source URL
-    // Use BASE_PATH (e.g., /dev-images) + '/' + imageName (dvco-logo.PNG)
+    // Use BASE_PATH (e.g., /dev-images) + '/' + imageName (dvco-logo.PNG
     // We add a check for BASE_PATH, although it should be set.
     const imageSrc = BASE_PATH ? `${BASE_PATH}/dvco-logo.PNG` : `/dvco-logo.PNG`
+
+    console.log(BASE_PATH, ': esse é o base path')
 
     return (
         <div className="p-5 fixed w-full top-0 z-50">
