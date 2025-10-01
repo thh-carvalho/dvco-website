@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   // Use the correct basePath and assetPrefix for production builds
-  basePath: isProd ? "/dvco-website" : "",
-  assetPrefix: isProd ? "/dvco-website/" : "",
+  basePath: "/dvco-website",
+  assetPrefix:"/dvco-website/",
 
   output: "export", // Enables static exports
   reactStrictMode: true,
