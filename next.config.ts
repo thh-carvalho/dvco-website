@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NEXT_PUBLIC_IMAGE_BASE_PATH === 'production';
 
 const nextConfig: NextConfig = {
   // Use the correct basePath and assetPrefix for production builds
-  basePath: "/dvco-website",
-  assetPrefix:"/dvco-website/",
-
+  basePath: isProd ? `/dvco-website/` : ``,
   output: "export", // Enables static exports
   reactStrictMode: true,
 
