@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import ButtomMobile from "./buttom-mobile";
 
-const BASE_PATH: string | undefined = process.env.NEXT_PUBLIC_BASE_BASE_PATH;
+const BASE_PATH: string | undefined = process.env.NEXT_PUBLIC_BASE_PATH;
 
 export default function Navbar() {
     // 2. Construct the full image source URL
