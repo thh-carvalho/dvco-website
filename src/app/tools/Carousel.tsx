@@ -1,6 +1,6 @@
 'use client'
 
-//Only for builde
+//Only for build
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y} from 'swiper/modules';
