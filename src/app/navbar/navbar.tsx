@@ -23,8 +23,6 @@ export default function Navbar() {
                     height={30}
                     priority
                 />
-
-                <p>teste</p>
                 <ButtomMobile />
             </nav>
         </div>
