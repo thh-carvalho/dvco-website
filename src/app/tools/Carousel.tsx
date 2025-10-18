@@ -15,6 +15,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 
 export default function Carousel(){
+    const imageSrc = '/dvco-website'
     return (
          <Swiper
             modules={[Autoplay]}
@@ -49,7 +50,7 @@ export default function Carousel(){
             <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/google-analytics.png"
+                    src={imageSrc + "/google-analytics.png"}
                     height={60}
                     width={100} 
                     alt="Google Analytics"
@@ -59,7 +60,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/google-tag-manager.png"
+                    src={imageSrc + "/google-tag-manager.png"}
                     height={60}
                     width={100} 
                     alt="Google Tag Manager"
@@ -69,7 +70,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/next-js-logo.png"
+                    src={imageSrc + "/next-js-logo.png"}
                     height={60}
                     width={100} 
                     alt="Next.js"
@@ -79,7 +80,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/react-js.logo.png"
+                    src={imageSrc + "/react-js.logo.png"}
                     height={60}
                     width={100} 
                     alt="React.js"
@@ -89,7 +90,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/adobe-analytics.png"
+                    src={imageSrc + "/adobe-analytics.png"}
                     height={60}
                     width={100} 
                     alt="Adobe Analytics"
@@ -99,7 +100,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/adobe-target.png"
+                    src={imageSrc + "/adobe-target.png"}
                     height={60}
                     width={100} 
                     alt="Adobe Target"
@@ -109,7 +110,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/webflow.png"
+                    src={imageSrc + "/webflow.png"}
                     height={60}
                     width={100} 
                     alt="Webflow"
@@ -119,7 +120,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/meta-logo.png"
+                    src={imageSrc + "/meta-logo.png"}
                     height={60}
                     width={100} 
                     alt="Meta - Facebook, Instagram"
@@ -129,7 +130,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/tiktok-logo.png"
+                    src={imageSrc + "/tiktok-logo.png"}
                     height={60}
                     width={100} 
                     alt="Tiktok"
@@ -139,7 +140,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/crazy-egg-Logo.png"
+                    src={imageSrc + "/crazy-egg-Logo.png"}
                     height={60}
                     width={100} 
                     alt="CrazyEgg"
@@ -149,7 +150,7 @@ export default function Carousel(){
              <SwiperSlide>
                 <div className='h-full flex justify-center items-center'>
                     <Image 
-                    src="/hotmart-logo.png"
+                    src={imageSrc + "/hotmart-logo.png"}
                     height={60}
                     width={100} 
                     alt="Hotmart"
