@@ -7,7 +7,7 @@ import ButtomHome from './ButtonHome'
 export default function HomePage(){
     const imageSrc = '/dvco-website'
     return (
-            <main className={`bg-[url('${imageSrc}/bg-home.png')] p-5 h-[100vh] w-full bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center gap-[32px] row-start-2 items-center sm:items-start`}>
+            <main className="bg-[url('/dvco-website/bg-home.png')] p-5 h-[100vh] w-full bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center gap-[32px] row-start-2 items-center sm:items-start">
                <div className='w-full lg:w-[510PX]'>
                      <Image
                         className="dark:invert"
