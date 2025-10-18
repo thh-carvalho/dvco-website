@@ -9,7 +9,7 @@ export default function Footer(){
                 <div>
                     <p className='text-[#fafafa] text-[16px]'>Contato</p>
                     <address>
-                        <a className='text-[#fafafa] text-[14px]' href="tel:+551199808089734567890">+55 (11) 99808-0897</a>
+                        <a className='text-[#fafafa] text-[14px]' href="tel:+551199808089734567890">+55 (11) 98941-6460</a>
                     </address>
                 </div>
             </div>

@@ -12,12 +12,13 @@ export default function Contact(){
 
                 <div>
                     <form action="">
-                        <input className='w-full p-1 mb-2 h-[50px] rounded-sm border-[1px] border-[#fafafafa] text-[#fafafa]' type="text" placeholder='Nome' />
+                        {/* <input className='w-full p-1 mb-2 h-[50px] rounded-sm border-[1px] border-[#fafafafa] text-[#fafafa]' type="text" placeholder='Nome' />
                         <input className='w-full p-1 mb-2 h-[50px] rounded-sm border-[1px] border-[#fafafafa] text-[#fafafa]' type="email" placeholder='E-mail' />
-                        <textarea className='w-full p-1 mb-2 h-[100px] rounded-sm border-[1px] border-[#fafafafa] text-[#fafafa]' placeholder='Mensagem'></textarea>
+                        <textarea className='w-full p-1 mb-2 h-[100px] rounded-sm border-[1px] border-[#fafafafa] text-[#fafafa]' placeholder='Mensagem'></textarea> */}
                         
-                        <ButtonContact />
+                        
                     </form>
+                    <ButtonContact />
                 </div>
             </div>
         </section>
