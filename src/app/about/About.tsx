@@ -4,6 +4,8 @@ import React from 'react';
 import Image from 'next/image'
 
 export default function About(){
+
+    const imageSrc = '/dvco-website'
     return (
         <section className='p-5'> 
             <h2 className='text-[#ffffff] pb-5 text-[20px] font-semibold'>O que fazemos</h2>
@@ -15,7 +17,7 @@ export default function About(){
                                 <p className='text-[#ffffff] flex items-center font-semibold'>
                                     <Image
                                         className="dark:invert"
-                                        src="/development.png"
+                                        src={imageSrc + "/development.png"}
                                         alt="Next.js logo"
                                         width={50}
                                         height={50}
@@ -32,7 +34,7 @@ export default function About(){
                             <p className='text-[#ffffff] flex items-center font-semibold'>
                             <Image
                                 className="dark:invert"
-                                src="/web-analytics.png"
+                                src={imageSrc + "/web-analytics.png"}
                                 alt="Next.js logo"
                                 width={50}
                                 height={50}
@@ -50,7 +52,7 @@ export default function About(){
                             <p className='text-[#ffffff] flex items-center font-semibold'>
                                 <Image
                                     className="dark:invert"
-                                    src="/data-tracking.png"
+                                    src={imageSrc + "/data-tracking.png"}
                                     alt="Next.js logo"
                                     width={50}
                                     height={50}
@@ -69,7 +71,7 @@ export default function About(){
                             <p className='text-[#ffffff] flex items-center font-semibold'>
                             <Image
                                 className="dark:invert"
-                                src="/digital-marketing.png"
+                                src={imageSrc + "/digital-marketing.png"}
                                 alt="Next.js logo"
                                 width={50}
                                 height={50}
@@ -86,7 +88,7 @@ export default function About(){
                             <p className='text-[#ffffff] flex items-center font-semibold'>
                             <Image
                                 className="dark:invert"
-                                src="/ab-test.png"
+                                src={imageSrc + "/ab-test.png"}
                                 alt="Next.js logo"
                                 width={50}
                                 height={50}
