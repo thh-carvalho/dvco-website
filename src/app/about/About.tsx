@@ -7,7 +7,7 @@ export default function About(){
 
     const imageSrc = '/dvco-website'
     return (
-        <section className='p-5'> 
+        <section id='about-section' className='p-5'> 
             <h2 className='text-[#ffffff] pb-5 text-[20px] font-semibold'>O que fazemos</h2>
 
             <div className='flex flex-col gap-5'>
