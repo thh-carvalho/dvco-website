@@ -66,8 +66,8 @@ export default function About(){
                     </div> */}
                 </div>
                 <div className='flex flex-col gap-5 lg:flex-row lg:justify-around lg:pb-10'>
-                    <div className='flex flex-col gap-2 rounded animate-rotate-border bg-conic/[from_var(--border-angle)] from-[#050603] via-white to-[#050603] from-80% via-90% to-100% lg:w-[30%] lg:p-[0.5px] lg:pr-[1px] lg:pb-[1px] lg:pt-[1px] lg:items-center'>
-                        <div className='bg-[#050603] rounded py-5 px-1'>
+                    <div className='flex flex-col gap-2 rounded animate-rotate-border bg-conic/[from_var(--border-angle)] from-[#050603] via-white to-[#050603] from-80% via-90% to-100% lg:w-[30%] lg:p-[5px] lg:pr-[1px] lg:px-[5px] lg:items-center'>
+                        <div className='bg-[#050603] rounded py-7 px-6'>
                             <p className='text-[#ffffff] flex items-center font-semibold'>
                             <Image
                                 className="dark:invert"
